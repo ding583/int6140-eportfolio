@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>INT6140 ePortfolio | 生成式AI与未来工作</title>
+<style>
+:root{--ink:#24323a;--muted:#68777d;--accent:#b56b3a;--line:#ded8cc;--paper:#fbfaf7;--blue:#3e6f78}
+*{box-sizing:border-box}body{margin:0;background:#e8e5de;color:var(--ink);font-family:"Microsoft YaHei","Noto Sans CJK SC",Arial,sans-serif;line-height:1.75}
+main{max-width:1000px;margin:30px auto;background:var(--paper);padding:56px 70px 70px;box-shadow:0 8px 32px #26323818}
+header{border-bottom:1px solid var(--line);padding-bottom:30px;margin-bottom:35px}.eyebrow{letter-spacing:.18em;color:var(--accent);font-size:12px;font-weight:700}.title{font-family:Georgia,"SimSun",serif;font-size:42px;line-height:1.25;margin:14px 0 10px;color:#1e2d32}.subtitle{color:var(--muted);font-size:17px}.meta{display:flex;gap:26px;flex-wrap:wrap;margin-top:20px;font-size:13px;color:var(--muted)}
+h2{font-family:Georgia,"SimSun",serif;font-size:26px;margin:42px 0 14px;color:#1e2d32;border-left:4px solid var(--accent);padding-left:13px}h3{font-size:17px;color:var(--blue);margin:25px 0 6px}p{margin:8px 0 14px;text-align:justify}.lead{font-size:18px;color:#33474d}.note{background:#f1eee7;border:1px solid var(--line);padding:14px 18px;margin:18px 0;font-size:14px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.card{border:1px solid var(--line);padding:18px;background:#fffdf9}.card h3{margin-top:0}.tag{display:inline-block;color:#fff;background:var(--blue);padding:2px 9px;font-size:12px;margin:3px 4px 3px 0}.flow{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:16px 0}.step{background:#eef3f1;border-top:3px solid var(--blue);padding:12px 10px;min-height:122px;font-size:13px}.step b{display:block;color:var(--blue);margin-bottom:5px}.radar{display:flex;justify-content:center;margin:12px 0 4px}.radar svg{width:min(100%,430px);height:auto}.caption{text-align:center;color:var(--muted);font-size:12px;margin:0 0 18px}.timeline{border-left:2px solid var(--accent);padding-left:22px;margin:18px 0}.milestone{position:relative;margin:18px 0}.milestone:before{content:"";position:absolute;left:-29px;top:7px;width:11px;height:11px;border-radius:50%;background:var(--accent)}.milestone strong{color:var(--accent)}ol.refs{padding-left:26px}ol.refs li{margin:8px 0;font-size:14px}.small{font-size:13px;color:var(--muted)}footer{border-top:1px solid var(--line);margin-top:48px;padding-top:18px;font-size:13px;color:var(--muted)}a{color:#2d6974}
+@media(max-width:700px){main{margin:0;padding:30px 22px 48px}.title{font-size:31px}.grid{grid-template-columns:1fr}.flow{grid-template-columns:1fr}.step{min-height:auto}}
+@media print{body{background:#fff}main{margin:0;box-shadow:none;max-width:none;padding:24mm 18mm}.card,.step{break-inside:avoid}h2{break-after:avoid}}
+</style>
+</head>
+<body><main>
+<header>
+<div class="eyebrow">INT6140 · INDIVIDUAL ePORTFOLIO</div>
+<h1 class="title">生成式 AI 与未来工作</h1>
+<div class="subtitle">从高校学生服务工作流出发，设计一套以员工福祉为中心的协作机制</div>
+<div class="meta"><span>案例：生成式 AI 辅助高校学生服务与行政支持</span><span>核心论述与反思：约 2000 字</span><span>提交日期：2026 年 12 月 4 日</span></div>
+</header>
+
+<h2>01 · 个人职业画像与未来工作哲学</h2>
+<p class="lead">我把自己定位为“能把复杂信息转化为清晰服务的人”。研究生学习让我形成了资料检索、中文写作、结构化表达和跨文化沟通能力，但我也看到三个短板：对数据工具的熟练度不足，项目成果缺少可视化证据，以及在不确定情境中做快速决策的经验有限。</p>
+<p>我对未来工作的基本判断是：技术会接管更多可重复任务，却不会自动替人承担责任。好的工作不是让人和机器互相竞争，而是让机器处理检索、整理和初步生成，让人负责同理心、判断、解释和关系建立。因此，我希望把自己的职业方向放在教育、学生事务或知识服务等需要“技术理解 + 人的沟通”的交叉位置，并以透明、可复核和尊重隐私作为工作原则。</p>
+<div class="note"><b>价值宣言：</b>效率必须转化为更有质量的服务时间；自动化必须伴随可申诉、可学习和可退出的机制；任何生成式 AI 输出都只能是工作草稿，最终责任仍属于人。</div>
+
+<h2>02 · 前沿科技深度剖析与工作重塑</h2>
+<h3>案例边界与问题</h3>
+<p>本文聚焦生成式 AI 在高校学生服务中心的一个具体工作场景：学生通过在线渠道咨询课程注册、奖学金、学籍证明和心理支持转介，前台员工需要检索政策、生成回复、记录工单并把复杂个案转交专业人员。这里的“案例”是依据公开技术能力和高校行政任务构建的情境案例，不把任何学校未公开的内部部署写成事实。研究问题是：生成式 AI 如何改变工作流、雇佣形态与技能图谱？怎样把效率收益转化为员工福祉？</p>
+<h3>工作流重构</h3>
+<div class="flow">
+<div class="step"><b>1 · 需求进入</b>学生提交问题；系统识别主题、语言和紧急程度。</div>
+<div class="step"><b>2 · 知识检索</b>AI 从经审核的政策库检索依据，并标示出处。</div>
+<div class="step"><b>3 · 草稿生成</b>生成多语回复、办理步骤和待确认信息。</div>
+<div class="step"><b>4 · 人工判断</b>员工核查事实、语气与隐私风险，必要时升级个案。</div>
+<div class="step"><b>5 · 反馈学习</b>记录解决结果，更新知识库和服务指标。</div>
+</div>
+<p class="caption">图 1　生成式 AI 辅助学生服务的“机器初筛—人类判断—持续学习”流程</p>
+<p>与传统流程相比，AI 可以减少重复检索和格式化写作，但“工作被替代”不是唯一结果。任务会重新分配：初级岗位的复制粘贴减少，政策解释、复杂个案识别、跨部门协调和情绪支持变得更重要。这符合任务视角的技术变迁观点：技术通常替代部分任务，同时补充另一些任务，而不是一次性替代整个职业[1]。MIT“未来工作”研究也提醒我们，技术收益能否转化为更好工作，取决于组织制度、培训和利益分配，而不是技术本身[2]。</p>
+<h3>雇佣形态与技能图谱</h3>
+<div class="grid">
+<div class="card"><h3>工作与雇佣形态</h3><p>岗位从“处理大量标准问题”转向“管理知识、判断风险和维护关系”。团队可以采用混合工作和弹性排班，但必须避免把 AI 监控指标变成单一的绩效排名。对外包或临时员工而言，清晰的培训、权限和申诉流程比单纯提高处理量更重要。</p><span class="tag">人机协作</span><span class="tag">混合工作</span><span class="tag">算法治理</span></div>
+<div class="card"><h3>关键技能</h3><p>一是 AI 素养：能写清楚任务、识别幻觉、追溯来源；二是领域知识：理解学籍、资助和隐私规则；三是人际能力：倾听、解释和处理冲突；四是数据与项目能力：维护知识库、分析服务质量并推动改进。</p><span class="tag">提示与核验</span><span class="tag">政策解释</span><span class="tag">同理沟通</span></div>
+</div>
+<div class="radar"><svg viewBox="0 0 420 310" role="img" aria-label="未来学生服务岗位技能雷达图"><polygon points="210,35 350,137 297,273 123,273 70,137" fill="none" stroke="#d5ddd9"/><polygon points="210,70 308,141 272,235 148,235 112,141" fill="none" stroke="#d5ddd9"/><polygon points="210,105 266,145 245,198 175,198 154,145" fill="none" stroke="#d5ddd9"/><line x1="210" y1="35" x2="210" y2="273" stroke="#d5ddd9"/><line x1="70" y1="137" x2="350" y2="137" stroke="#d5ddd9"/><line x1="123" y1="273" x2="297" y2="273" stroke="#d5ddd9"/><polygon points="210,57 317,145 282,240 143,252 100,126" fill="#b56b3a55" stroke="#b56b3a" stroke-width="3"/><text x="194" y="22" font-size="13" fill="#24323a">AI素养</text><text x="350" y="132" font-size="13" fill="#24323a">领域知识</text><text x="294" y="299" font-size="13" fill="#24323a">数据能力</text><text x="64" y="299" font-size="13" fill="#24323a">项目协作</text><text x="5" y="132" font-size="13" fill="#24323a">同理沟通</text></svg></div>
+<p class="caption">图 2　未来学生服务岗位技能雷达（自我诊断：沟通与领域学习较强，AI 与数据能力需补足）</p>
+
+<h2>03 · 未来工作场所与员工福祉设计</h2>
+<h3>方案：Human-in-the-Loop 学生服务工作台</h3>
+<p>我设计一个“人机协作工作台”，目标不是把员工变成 AI 的审核按钮，而是把节省下来的时间投入复杂服务和团队学习。工作台包含四个机制：第一，知识库只允许使用有版本号的政策，AI 回复必须显示依据；第二，敏感主题（心理危机、歧视、财务困难）自动转人工并提供转介清单；第三，员工可一键标记错误、解释原因，错误记录用于改进而不直接扣分；第四，每周安排两小时“无工单学习时段”，由员工共同复盘典型案例。</p>
+<div class="grid"><div class="card"><h3>空间与节奏</h3><p>设置安静处理区、协作讨论区和短时恢复区；采用轮换排班，避免连续处理高情绪负荷个案；保留线下接待，防止服务完全数字化后把弱势学生排除在外。</p></div><div class="card"><h3>衡量方式</h3><p>同时观察首次解决率、升级准确率、学生满意度、员工恢复感和错误纠正时间。禁止用单一响应量评价员工，季度评估加入员工共创反馈。</p></div></div>
+<p>这一方案把员工福祉理解为工作设计的一部分，而非压力过大后的补救。生成式 AI 可能提高产出，也可能扩大监控和情绪劳动；因此需要社会技术系统视角，把技术、流程、权责和心理安全一起设计[3]。方案的最小试点是一个月、一个服务主题、一个小组：先比较 AI 辅助与传统流程的质量和恢复感，再决定是否扩大范围。</p>
+
+<h2>04 · 学期学习反思与职业路线图</h2>
+<p>学期初我把“未来工作”理解成掌握更多软件。阅读自动化与就业研究后，我的第一个转变是认识到技术影响的是任务组合，而不是简单的岗位总数[1]。讨论员工福祉后，第二个转变是把效率指标放回人的体验中：如果员工为了追求更快回复而失去判断空间，技术就没有真正改善工作。最后，我开始把 AI 看作一种需要治理的协作关系，主动追问数据来源、责任归属和谁能提出异议。</p>
+<div class="timeline"><div class="milestone"><strong>0-3 个月 · 建立基础</strong><br>完成一门生成式 AI 与数据伦理课程；用真实但脱敏的学生服务问题练习提示、事实核验和引用；制作 10 个可复用的服务模板。</div><div class="milestone"><strong>4-8 个月 · 形成作品</strong><br>完成一个“政策知识库 + 人工复核清单”的小项目，记录错误类型、处理时间和用户反馈，形成可展示的流程图与反思报告。</div><div class="milestone"><strong>9-12 个月 · 进入实践</strong><br>申请教育行政、学生事务或知识服务相关实习/兼职，主动承担跨部门协调和数据整理任务，接受一位有经验的主管反馈。</div><div class="milestone"><strong>13-24 个月 · 定位方向</strong><br>根据实践证据选择“教育服务运营”或“数字化知识管理”方向，补足项目管理和基础数据分析，形成一套关于负责任 AI 工作设计的个人方法论。</div></div>
+<p>路线图的成功标准不是“学会最多工具”，而是能证明自己把工具转化为可复核的服务改进：有清晰流程、有用户反馈、有错误记录，也能说明对员工福祉和公平性的影响。</p>
+
+<h2>05 · 研究说明与 AI 使用声明</h2>
+<p class="small">本文为公开资料驱动的情境案例分析，未进行学校内部访谈、问卷或企业数据采集。案例中的工作流和设计方案是作者根据课程理论与公开技术能力提出的分析模型，不代表任何机构已经实施。</p>
+<p class="small"><b>生成式 AI 使用声明：</b>使用生成式 AI 协助整理课程要求、提出结构建议、润色部分表达和生成 HTML 排版草稿；作者自行选择案例、核对资料、完成理论解释、个人反思、职业路线图和最终编辑，并对事实、引用与观点承担全部责任。未将未核实的 AI 输出作为事实或数据使用。</p>
+
+<h2>参考文献</h2>
+<ol class="refs"><li>Autor, D. H., Levy, F., &amp; Murnane, R. J. The skill content of recent technological change: An empirical exploration[J]. <i>Quarterly Journal of Economics</i>, 2003, 118(4): 1279-1333. <a href="https://doi.org/10.1162/003355303322552801">https://doi.org/10.1162/003355303322552801</a></li><li>Autor, D., Mindell, D., &amp; Reynolds, E. <i>The Work of the Future: Building Better Jobs in an Age of Intelligent Machines</i>[M]. Cambridge: MIT Press, 2021. <a href="https://workofthefuture.mit.edu/research-post/the-work-of-the-future-building-better-jobs-in-an-age-of-intelligent-machines/">MIT Work of the Future</a></li><li>Kolade, O., &amp; Owoseni, A. Employment 5.0: The work of the future and the future of work[J]. <i>Technology in Society</i>, 2022, 71: 102086. <a href="https://doi.org/10.1016/j.techsoc.2022.102086">https://doi.org/10.1016/j.techsoc.2022.102086</a></li><li>International Labour Organization. <i>Generative AI and Jobs: A Global Analysis of Potential Effects on Job Quantity and Quality</i>[R]. Geneva: ILO, 2023. <a href="https://www.ilo.org/publications/generative-ai-and-jobs-global-analysis-potential-effects-job-quantity-and">ILO report</a></li><li>UNESCO. <i>Guidance for Generative AI in Education and Research</i>[R]. Paris: UNESCO, 2023. <a href="https://unesdoc.unesco.org/ark:/48223/pf0000386693">UNESCO report</a></li></ol>
+<footer>INT6140 · Individual ePortfolio · 公开静态归档版</footer>
+</main></body></html>
